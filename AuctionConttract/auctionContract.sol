@@ -127,11 +127,15 @@ contract AuctionContract is Ownable{
         if(buyerBid < highestBid){
             revert YouDontHaveTheHighestBid({highestBid: highestBid, yourBid:buyerBid});
         }
-        uint tokenId = auction.tokenId;
-        payable(owner()).transfer(buyerBid);
         address nftAddress = auction.contractAddress;
         NFT = ERC721(nftAddress);
-        NFT.transferFrom(address(this),msg.sender, tokenId);
+        uint tokenId = auction.tokenId;
+        if(highestBid > 0){
+            payable(owner()).transfer(buyerBid);
+            NFT.transferFrom(address(this),msg.sender, tokenId);
+        }else{
+            NFT.transferFrom(address(this), owner(),tokenId );
+        }
         auction.canBid = false;
         emit NftClaimed(nftAddress, tokenId, buyerBid, msg.sender);
         return true;
