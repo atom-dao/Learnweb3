@@ -264,26 +264,3 @@ contract CPAMM {
         return x <= y ? x : y;
     }
 }
-
-// Order of Layout
-// Pragma statements
-// Import statements
-// Interfaces
-// Libraries
-// Contracts
-
-// Order of function
-// constructor
-// receive function (if exists)
-// fallback function (if exists)
-// external
-// public
-// internal
-// private
-
-// Order of modifiers
-// Visibility
-// Mutability
-// Virtual
-// Override
-// Custom modifiers
