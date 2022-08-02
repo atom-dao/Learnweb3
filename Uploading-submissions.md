@@ -18,7 +18,7 @@
 
 </pre>
 
--now you will be directed to a new page 
+-now you will be redirected to a new page 
 <pre>
 
 
@@ -82,7 +82,7 @@
 
 </pre>
 - once you see the able to merge tick go ahead with the following
-- remane the commit to whatever bounty you have been doing for exmaple "updated filecoin bounty" and leave the comment blank and then click on create pull request
+- rename the commit to whatever bounty you have been doing for exmaple "updated filecoin bounty" and leave the comment blank and then click on create pull request
 <pre>
 
 
@@ -97,7 +97,7 @@
 
 </pre>
 - that was the last step. you have completed the submission.
--  once it is done this the code will be reviewed by us
+-  once it is done this the code will be reviewed by us.
 
 
 
