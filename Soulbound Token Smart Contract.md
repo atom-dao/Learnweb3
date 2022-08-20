@@ -1,4 +1,4 @@
-# SoulBound Token Smart Contract
+# SoulBound Tokens Smart Contract
 
 A simple solidity smart contract for Soulbound tokens.
 
