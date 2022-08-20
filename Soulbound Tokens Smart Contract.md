@@ -12,5 +12,5 @@ A simple solidity smart contract for Soulbound tokens.
 # Solving Bounty 
 
 1. While creating the code use proper comments.
-2. Submission Deadline - 20th Jul. 1:00 pm IST to 23rd Jul. 1:00pm IST
+2. Submission Deadline - 20th Aug. 1:00 pm IST to 23rd Aug. 1:00pm IST
 3. Fork the repo and create a pull request.
