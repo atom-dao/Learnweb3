@@ -1,6 +1,6 @@
 # Multi-Signature Wallet Smart Contract 
 
-A simple solidity smart contract for Soulbound tokens.
+A simple solidity smart contract for MultiSig Wallet.
 
 # To-do
 
