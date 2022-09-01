@@ -3,12 +3,12 @@
 A simple solidity smart contract for Soulbound tokens.
 
 # To-do
-1. Non-fungible tokens (NFTs) that are non-transferrable between wallets.
-2. A scalable multi-signature wallet contract, which requires a minimum of 60% authorization by the signatory wallets to perform a transaction.
-3. Access registry contract that stores the signatories of this multi-sig wallet by address. This access registry contract has its own admin.
-4. Capable of adding, revoking, renouncing, and transfer of signatory functionalities.
-5. For a plus point, you can add your own stuff too, to make it more intersting. 
-6. Add comments where you used your own creativity.
+
+1. A scalable multi-signature wallet contract, which requires a minimum of 60% authorization by the signatory wallets to perform a transaction.
+2. Access registry contract that stores the signatories of this multi-sig wallet by address. This access registry contract has its own admin.
+3. Capable of adding, revoking, renouncing, and transfer of signatory functionalities.
+4. For a plus point, you can add your own stuff too, to make it more intersting. 
+5. Add comments where you used your own creativity.
 
 # On Solving Bounty 
 
